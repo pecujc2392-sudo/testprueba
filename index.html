@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Juan Carlos Pérez Cuba — international tax, development cooperation and global policy.">
+<title>Juan Carlos Pérez Cuba | International Tax & Development</title>
+<style>
+:root{--ink:#17252b;--muted:#66777a;--paper:#f5f3ed;--white:#fffefa;--gold:#b28a4a;--line:#dedbd1;--teal:#275e60;--blue:#577b91}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:inherit;text-decoration:none}a:hover{color:var(--gold)}.wrap{width:min(1160px,calc(100% - 48px));margin:auto}
+nav{display:flex;justify-content:space-between;align-items:center;padding:25px 0;border-bottom:1px solid var(--line);font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.brand{font-weight:800;letter-spacing:.12em}.navlinks{display:flex;gap:26px;color:var(--muted)}
+.hero{padding:105px 0 88px;display:grid;grid-template-columns:1.45fr .55fr;gap:55px;align-items:end}
+.kicker{color:var(--gold);font-size:12px;font-weight:800;letter-spacing:.2em;text-transform:uppercase}
+h1{font-family:Georgia,serif;font-size:clamp(48px,7vw,88px);line-height:.99;font-weight:400;letter-spacing:-.045em;margin:22px 0 25px;max-width:800px}
+.lead{font-size:20px;line-height:1.55;color:#4d5d60;max-width:720px}
+.hero-side{border-left:1px solid var(--line);padding:12px 0 12px 28px;color:var(--muted);font-size:14px}
+.hero-side strong{display:block;color:var(--ink);font:26px Georgia,serif;margin-bottom:5px}
+.actions{display:flex;gap:12px;margin-top:32px}.btn{padding:12px 18px;border:1px solid var(--ink);font-size:12px;letter-spacing:.1em;text-transform:uppercase}.btn.primary{background:var(--ink);color:white}
+section{padding:76px 0;border-top:1px solid var(--line)}.section-head{display:grid;grid-template-columns:.45fr 1.55fr;gap:40px;margin-bottom:38px}.eyebrow{font-size:11px;color:var(--gold);font-weight:800;letter-spacing:.18em;text-transform:uppercase;padding-top:9px}h2{font:400 clamp(34px,4vw,52px)/1.08 Georgia,serif;margin:0;letter-spacing:-.025em}.intro{max-width:720px;color:var(--muted);margin:14px 0 0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:24px}.panel{background:var(--white);padding:28px;border:1px solid var(--line)}.panel h3{font:25px Georgia,serif;margin:0 0 10px}.panel p{color:var(--muted);margin:0}
+.timeline{border-top:1px solid var(--line)}.job{display:grid;grid-template-columns:.45fr 1.55fr;gap:40px;padding:26px 0;border-bottom:1px solid var(--line)}.date{font-size:12px;letter-spacing:.1em;color:var(--gold);text-transform:uppercase}.job h3{font:26px Georgia,serif;margin:0}.org{font-weight:700;margin:3px 0 10px}.job p{margin:0;color:var(--muted);max-width:780px}
+.mapbox{background:#e9e8df;border:1px solid var(--line);padding:18px;overflow:hidden}.maptop{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:14px}.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--muted)}.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px}.dot.work{background:var(--gold)}.dot.exposure{background:var(--teal)}
+.world{position:relative;width:100%;aspect-ratio:2/1;min-height:260px;background:linear-gradient(180deg,#e9e8df,#e4e3d9);overflow:hidden}
+.world svg{width:100%;height:100%;position:absolute;inset:0}.land{fill:#c9cec5;stroke:#b6bdb4;stroke-width:1.2}
+.pin{position:absolute;width:11px;height:11px;border-radius:50%;transform:translate(-50%,-50%);border:2px solid #fff;box-shadow:0 1px 4px #43504a66;cursor:pointer}.pin.work{background:var(--gold)}.pin.exposure{background:var(--teal)}.pin:hover{width:15px;height:15px;z-index:3}
+.mapnote{font-size:12px;color:var(--muted);margin:12px 2px 0}.regions{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:18px}.region{background:var(--white);border:1px solid var(--line);padding:17px;min-height:150px}.region h4{font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin:0 0 9px;color:var(--gold)}.region p{font-size:12px;color:var(--muted);line-height:1.65;margin:0}
+.skills{display:flex;flex-wrap:wrap;gap:9px}.tag{border:1px solid var(--line);padding:8px 12px;background:var(--white);font-size:13px}
+.edu{display:grid;grid-template-columns:1fr 1fr;gap:24px}.eduitem{padding:22px 0;border-top:1px solid var(--line)}.eduitem h3{font:23px Georgia,serif;margin:0}.eduitem p{color:var(--muted);margin:5px 0 0}
+footer{padding:55px 0 70px;background:var(--ink);color:#f5f3ed}.foot{display:flex;justify-content:space-between;gap:30px;align-items:end}.foot h2{max-width:600px}.foot p{color:#bdc7c4;font-size:13px}.foot a{color:#e6c58f}
+@media(max-width:760px){.wrap{width:min(100% - 32px,600px)}.navlinks{gap:12px;font-size:10px}.hero{padding:70px 0 55px;grid-template-columns:1fr;gap:25px}.hero-side{border-left:0;border-top:1px solid var(--line);padding:20px 0 0}.section-head,.job{grid-template-columns:1fr;gap:12px}.grid2,.edu{grid-template-columns:1fr}.regions{grid-template-columns:1fr 1fr}.world{min-height:190px}.foot{display:block}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><a class="brand" href="#">JCP / Global</a><div class="navlinks"><a href="#profile">Profile</a><a href="#experience">Experience</a><a href="#footprint">Global footprint</a><a href="#contact">Contact</a></div></nav>
+<header class="hero">
+<div><div class="kicker">International tax · Development cooperation · Public policy</div>
+<h1>Connecting tax, development and global perspectives.</h1>
+<p class="lead">I am Juan Carlos Pérez Cuba, a Mexican international tax and development cooperation professional based in Germany. My work connects public finance, international cooperation and business operations across regions.</p>
+<div class="actions"><a class="btn primary" href="#experience">Explore my work</a><a class="btn" href="#footprint">Global footprint</a></div></div>
+<aside class="hero-side"><strong>Europe · Africa · Latin America</strong>Cross-regional experience in international taxation, technical cooperation and policy-oriented work.<br><br><strong>Based in Hamburg</strong>Working across borders and institutional contexts.</aside>
+</header>
+<section id="profile"><div class="section-head"><div class="eyebrow">01 / Profile</div><div><h2>Policy insight with an international operating perspective.</h2><p class="intro">My professional interests lie at the intersection of domestic resource mobilisation, international tax cooperation and sustainable development. I have worked with international organisations and consulting teams, supporting technical cooperation, policy initiatives and tax-related business operations.</p></div></div>
+<div class="grid2"><div class="panel"><h3>Areas of focus</h3><p>International taxation, tax administration capacity-building, domestic resource mobilisation, tax and environment, and development cooperation.</p></div><div class="panel"><h3>Regional perspective</h3><p>Academic and professional engagement spanning Latin America, Europe, Africa and Asia, with a particular focus on connecting institutional and regional perspectives.</p></div></div></section>
+<section id="experience"><div class="section-head"><div class="eyebrow">02 / Experience</div><div><h2>Selected professional experience.</h2><p class="intro">A trajectory across international organisations, development cooperation and international tax consulting.</p></div></div>
+<div class="timeline">
+<div class="job"><div class="date">May 2025 — Present</div><div><h3>International Tax Consultant</h3><div class="org">GFA Consulting Group · Hamburg</div><p>Supporting international tax and business-management matters across Francophone Africa, including branch compliance, double tax agreements, VAT, corporate income tax, withholding taxes, financial statements and transfer-pricing documentation.</p></div></div>
+<div class="job"><div class="date">Oct 2024 — Apr 2025</div><div><h3>Junior Advisor</h3><div class="org">International Tax Compact · GIZ · Bonn</div><p>Contributed to international tax cooperation and capacity-building initiatives, including the organisation of the Network of Tax Organisations conference and work on tax integrity and illicit financial flows.</p></div></div>
+<div class="job"><div class="date">Jan — Sep 2024</div><div><h3>Junior Policy Analyst</h3><div class="org">OECD · Centre for Tax Policy and Administration / TIWB Secretariat · Paris</div><p>Supported Tax Inspectors Without Borders programmes and technical assistance in Latin America, including programme coordination, country missions and analytical reporting.</p></div></div>
+<div class="job"><div class="date">Sep 2021 — Aug 2022</div><div><h3>Risk Management Analyst</h3><div class="org">Eyeknow Broker / Conocimiento en Red</div><p>Contributed to risk analysis related to energy and infrastructure projects in Latin America.</p></div></div>
+</div></section>
+<section id="footprint"><div class="section-head"><div class="eyebrow">03 / Global footprint</div><div><h2>A cross-regional outlook.</h2><p class="intro">Countries below reflect a mix of direct professional engagement, academic experience and broader regional exposure. The map distinguishes countries linked to documented professional work from the wider international footprint.</p></div></div>
+<div class="mapbox"><div class="maptop"><strong>Countries & regions</strong><div class="legend"><span><i class="dot work"></i>Professional engagement</span><span><i class="dot exposure"></i>Regional / academic exposure</span></div></div>
+<div class="world" aria-label="Stylised world map with country markers">
+<svg viewBox="0 0 1000 500" role="img" aria-hidden="true">
+<path class="land" d="M75 105 L120 65 190 55 235 82 260 120 245 150 215 160 205 195 175 205 160 250 130 235 115 195 85 175 65 140Z M220 245 L255 260 275 300 265 350 245 400 220 370 210 320 190 285Z M425 100 L475 70 540 75 575 95 630 85 680 110 725 105 760 135 735 165 690 170 660 195 615 185 590 210 555 195 530 165 495 170 465 145 430 150Z M490 210 L535 215 555 255 545 310 520 360 495 335 480 280Z M690 265 L730 250 770 265 790 300 765 330 730 325 700 300Z M805 345 L850 330 895 350 910 390 875 420 830 410 800 380Z"/>
+<path class="land" d="M320 110 L345 95 370 110 365 135 340 145Z M385 150 L410 140 425 160 410 180 390 175Z" opacity=".8"/>
+</svg>
+<!-- markers are positioned approximately by longitude/latitude on the stylised map -->
+<button class="pin work" style="left:18%;top:37%" title="Mexico"></button><button class="pin exposure" style="left:20%;top:43%" title="Central America"></button><button class="pin work" style="left:25%;top:53%" title="Colombia"></button><button class="pin exposure" style="left:28%;top:63%" title="South America"></button>
+<button class="pin exposure" style="left:49%;top:25%" title="Northern Europe"></button><button class="pin work" style="left:51%;top:31%" title="Europe"></button><button class="pin exposure" style="left:53%;top:38%" title="Central Europe"></button>
+<button class="pin work" style="left:51%;top:54%" title="West Africa"></button><button class="pin work" style="left:55%;top:57%" title="Central Africa"></button><button class="pin exposure" style="left:58%;top:68%" title="East and Southern Africa"></button>
+<button class="pin exposure" style="left:70%;top:42%" title="South Asia"></button><button class="pin exposure" style="left:78%;top:48%" title="Southeast Asia"></button>
+</div><p class="mapnote">Schematic regional visualisation, not a geographic boundary map. Marker placement is indicative; use the regional lists below for the country-level detail.</p></div>
+<div class="regions">
+<div class="region"><h4>Latin America</h4><p>Mexico · El Salvador · Guatemala · Honduras · Costa Rica · Panama · Colombia · Chile · Paraguay · Peru · Brazil · Bolivia</p></div>
+<div class="region"><h4>Europe</h4><p>Sweden · Poland · Spain · Norway · Finland · Italy · Belgium · Germany · Netherlands · Austria · Switzerland</p></div>
+<div class="region"><h4>North America</h4><p>Canada · United States</p></div>
+<div class="region"><h4>Africa</h4><p>Morocco · Egypt · Tanzania · Ethiopia · Angola · Kenya · South Africa · Zambia · Burkina Faso · Niger · Cameroon · Senegal · Benin · Togo · Côte d’Ivoire · Mali, and wider Francophone Africa</p></div>
+<div class="region"><h4>Asia</h4><p>India · Sri Lanka · Timor-Leste · Laos · Thailand · Vietnam · Bhutan</p></div>
+</div></section>
+<section><div class="section-head"><div class="eyebrow">04 / Expertise</div><div><h2>Core areas and capabilities.</h2></div></div><div class="skills"><span class="tag">International taxation</span><span class="tag">Domestic resource mobilisation</span><span class="tag">Tax administration cooperation</span><span class="tag">Double tax agreements</span><span class="tag">VAT & corporate taxation</span><span class="tag">Withholding taxes</span><span class="tag">Transfer pricing</span><span class="tag">Development cooperation</span><span class="tag">Policy analysis</span><span class="tag">Tax and environment</span><span class="tag">Energy transition</span><span class="tag">Risk analysis</span></div></section>
+<section><div class="section-head"><div class="eyebrow">05 / Education</div><div><h2>Academic foundations.</h2></div></div><div class="edu"><div class="eduitem"><h3>Erasmus Mundus Joint Master — LAGLOBE</h3><p>2022–2024 · University of Salamanca, Stockholm University, Sorbonne Nouvelle / IHEAL</p><p>Europe–Latin America relations and global governance.</p></div><div class="eduitem"><h3>BA in International Relations</h3><p>2016–2021 · Benemérita Universidad Autónoma de Puebla (BUAP), Mexico</p></div></div><div class="eduitem"><h3>Languages</h3><p>Spanish (native) · English (fluent) · French (fluent) · Portuguese (fluent) · German (intermediate)</p></div></section>
+</div>
+<footer id="contact"><div class="wrap foot"><div><div class="kicker">Get in touch</div><h2>Interested in international tax, development and cross-regional cooperation?</h2></div><div><p>Juan Carlos Pérez Cuba<br>Hamburg, Germany</p><p>Contact details can be added once verified.</p></div></div></footer>
+</body></html>
